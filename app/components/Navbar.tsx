@@ -26,12 +26,15 @@ const Navbar = async () => {
                           </Link>
                       </>
                   ) : (
-                          <button onClick={async () => {
-                              "use server"
-                              await signIn('github')
-                          }}>
-                              <span>Login</span>
-                          </button>
+                          <form action={async () => {
+                              "use server";
+                              await signIn('github');
+                          }}
+                          >
+                              <button type='submit'>
+                                  Login
+                              </button>
+                          </form>
                   )}
               </div>
           </nav>
