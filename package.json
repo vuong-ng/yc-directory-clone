@@ -17,6 +17,7 @@
     "react-dom": "^19.0.0"
   },
   "dependencies": {
+    "22": "^0.0.0",
     "@radix-ui/react-slot": "^1.1.2",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.74.1",
@@ -31,6 +32,7 @@
     "react-dom": "^19.0.0",
     "sanity": "^3.74.1",
     "sanity-plugin-markdown": "^5.0.0",
+    "server-only": "^0.0.1",
     "styled-components": "^6.1.15",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7"
